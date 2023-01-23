@@ -4,7 +4,7 @@ const CELL_GAP = 2.5
 
 const score = document.getElementById('score-saver')
 const bestScore = document.getElementById('best-score')
-//
+
 localStorage.setItem('score', JSON.stringify({
   score: Number(0)
 }))
